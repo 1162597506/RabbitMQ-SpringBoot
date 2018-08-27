@@ -11,7 +11,7 @@ public class TopicReceiver {
 
     @RabbitListener(queues = "topic.messageA")
     public void processA(String message) {
-        System.out.println("The processA received message is : " + message);
+        System.out.println("The  processA received message is : " + message);
     }
 
     @RabbitListener(queues = "topic.messageB")

@@ -1,7 +1,5 @@
 package com.liuzhe.rabbitmq.topic;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -15,15 +13,15 @@ public class TopicSender {
     @Autowired
     private AmqpTemplate rabbitTemplate;
 
-    public void sendA(){
+    public void sendA() {
         String msg = "this is messageA";
-        System.out.println("The message sent is :" +msg);
-        this.rabbitTemplate.convertAndSend("topicExchange","topic.messageA",msg);
+        System.out.println("The message sent is :" + msg);
+        this.rabbitTemplate.convertAndSend("topicExchange", "topic.messageA", msg);
     }
 
-    public void sendB(){
+    public void sendB() {
         String msg = "this is messageB";
-        System.out.println("The message sent is :" +msg);
-        this.rabbitTemplate.convertAndSend("topicExchange","topic.messageB",msg);
+        System.out.println("The message sent is :" + msg);
+        this.rabbitTemplate.convertAndSend("topicExchange", "topic.messageB", msg);
     }
 }

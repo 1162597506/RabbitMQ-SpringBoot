@@ -1,5 +1,6 @@
 package com.liuzhe.rabbitmq;
 
+import com.liuzhe.rabbitmq.entity.UserSender;
 import com.liuzhe.rabbitmq.hello.HelloSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,13 +13,18 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HelloTest {
+public class UserTest {
 
     @Autowired
-    HelloSender sender;
+    UserSender sender;
 
     @Test
-    public void test() {
-        sender.send();
+    public void testUser() {
+        sender.sendUser();
+    }
+
+    @Test
+    public void testString() {
+        sender.sendString();
     }
 }
