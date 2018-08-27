@@ -4,9 +4,6 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * 使用默认的交换机发送数据
- */
 @Component
 public class UserSender {
 

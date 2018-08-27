@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Headers Exchange不同于上面三种Exchange，
+ * Headers Exchange不同于其他三种Exchange，
  * 它是根据Message的一些头部信息来分发过滤Message，
  * 忽略routing key的属性，
  * 如果Header信息和message消息的头信息相匹配，
@@ -17,7 +17,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class HeadersConfiguration {
 
-    private final static String HEADERS_A = "headers.A";
+    private static final String HEADERS_A = "headers.A";
+
+    private static final String HEADERS_EXCHANGE = "headersExchange";
 
     @Bean
     public Queue headersQueueA() {
@@ -26,7 +28,7 @@ public class HeadersConfiguration {
 
     @Bean
     HeadersExchange headersExchange() {
-        return new HeadersExchange("headersExchange");
+        return new HeadersExchange(HEADERS_EXCHANGE);
     }
 
     @Bean

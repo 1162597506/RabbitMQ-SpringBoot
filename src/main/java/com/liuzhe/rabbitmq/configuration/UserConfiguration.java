@@ -14,7 +14,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class UserConfiguration {
 
-    private final static String USER_QUEUE = "user.queue";
+    private static final String USER_QUEUE = "user.queue";
+
+    private static final String USER_TOPIC_EXCHANGEC = "userTopicExchange";
 
     @Bean
     public Queue userQueue() {
@@ -23,7 +25,7 @@ public class UserConfiguration {
 
     @Bean
     public TopicExchange topicExchange() {
-        return new TopicExchange("userTopicExchange");
+        return new TopicExchange(USER_TOPIC_EXCHANGEC);
     }
 
     @Bean

@@ -1,22 +1,24 @@
 package com.liuzhe.rabbitmq.configuration;
 
-import org.springframework.amqp.core.FanoutExchange;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
+import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
- *  忽略routing key的存在，
- *  直接将message广播到所有的Queue中。
+ * 忽略routing key的存在，
+ * 直接将交换机中的信息广播到所有绑定的Queue中。
  */
 @Configuration
 public class FanoutConfiguration {
 
-    private final static String FANOUT_A = "fanout.A";
-    private final static String FANOUT_B = "fanout.B";
-    private final static String FANOUT_C = "fanout.C";
+    private static final String FANOUT_A = "fanout.A";
+    private static final String FANOUT_B = "fanout.B";
+    private static final String FANOUT_C = "fanout.C";
+
+    private static final String FANOUT_EXCHANGE = "fanoutExchange";
 
     @Bean
     public Queue fanoutQueueA() {
@@ -35,7 +37,7 @@ public class FanoutConfiguration {
 
     @Bean
     FanoutExchange fanoutExchange() {
-        return new FanoutExchange("fanoutExchange");
+        return new FanoutExchange(FANOUT_EXCHANGE);
     }
 
     @Bean

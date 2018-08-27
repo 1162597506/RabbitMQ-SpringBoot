@@ -1,7 +1,6 @@
 package com.liuzhe.rabbitmq;
 
 import com.liuzhe.rabbitmq.entity.UserSender;
-import com.liuzhe.rabbitmq.hello.HelloSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,5 +1,6 @@
 package com.liuzhe.rabbitmq.Fanout;
 
+import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
@@ -25,3 +26,16 @@ public class FanoutReceiver {
     }
 
 }
+
+/*
+//这种注解方式也可以，不过控制台输出的结果不是很明显
+@Component
+@RabbitListener(queues = {"fanout.A","fanout.B","fanout.C"})
+public class FanoutReceiver {
+
+    @RabbitHandler
+    public void process(String msg) {
+        System.out.println("FanoutReceiver  : " + msg);
+    }
+
+}*/

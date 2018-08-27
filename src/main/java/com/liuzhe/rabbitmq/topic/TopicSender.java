@@ -13,6 +13,7 @@ public class TopicSender {
     @Autowired
     private AmqpTemplate rabbitTemplate;
 
+    //根据匹配规则，有两个队列满足两件，所以发送一次，会有两条输出
     public void sendA() {
         String msg = "this is messageA";
         System.out.println("The message sent is :" + msg);

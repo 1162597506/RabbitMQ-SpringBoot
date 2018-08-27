@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e6ea5e-71ce-46d1-844d-dce2f599befc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/topic/TopicReceiver.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/topic/TopicReceiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/topic/TopicSender.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/topic/TopicSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/liuzhe/rabbitmq/HelloTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/liuzhe/rabbitmq/HelloTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/liuzhe/rabbitmq/UserTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/DirectConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/DirectConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/HelloConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/HelloConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/TopicConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/TopicConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/UserConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/configuration/UserConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/direct/DirectReceiver.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/direct/DirectReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/entity/UserSender.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/rabbitmq/entity/UserSender.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +49,19 @@
       <file leaf-file-name="TopicSender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="134">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,82 +69,68 @@
       <file leaf-file-name="TopicReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="137">
+              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserReceiver.java">
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/my_local_repository/org/springframework/spring-messaging/4.3.3.RELEASE/spring-messaging-4.3.3.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java">
+      <file leaf-file-name="HandlerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/adapter/HandlerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="146">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java">
+      <file leaf-file-name="MessagingMessageListenerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/adapter/MessagingMessageListenerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TopicTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/TopicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="218">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -130,65 +139,9 @@
       <file leaf-file-name="HelloTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1535354722543" expanded="true" signature="94865:94907" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="94865:94924" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="94865:94942" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="94865:94955" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="94865:94970" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95005:97569" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95018:97554" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95072:95367" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95091:95352" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95154:95332" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95194:95298" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95215:95276" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95417:95744" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95436:95729" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95531:95709" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95571:95675" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95592:95653" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95795:96101" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95814:96086" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95888:96066" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95928:96032" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="95949:96010" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96144:96470" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96163:96455" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96257:96435" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96297:96401" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96318:96379" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96521:96882" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96540:96867" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96630:96847" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96670:96813" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96691:96791" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96917:97223" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="96936:97208" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97010:97188" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97050:97154" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97071:97132" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97275:97540" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97294:97525" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97327:97505" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97367:97471" ph="..." />
-                <marker date="1535354722543" expanded="true" signature="97388:97449" ph="..." />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,8 +149,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="321">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,12 +170,14 @@
       <find>=</find>
       <find>：</find>
       <find>fanout</find>
+      <find>final static</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>：</replace>
       <replace>:</replace>
       <replace>FANOUT_</replace>
+      <replace>static final</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -253,31 +208,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageBReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageAReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/single/HelloSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutSender.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/FanoutTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/SingleConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/DirectTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/hello/HelloReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/headers/HeadersReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HeadersTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/headers/HeadersSender.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/TopicTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/TopicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java" />
       </list>
     </option>
   </component>
@@ -325,7 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,48 +422,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RabbitMQ-SpringBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RabbitMQ-SpringBoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rabbitmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="SonarLintApp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -537,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testString">
+  <component name="RunManager" selected="JUnit.TopicTest.testMessageA">
     <configuration default="false" name="DirectTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -564,7 +489,27 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HeadersTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.UserTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RabbitMQ-SpringBoot" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FanoutTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
@@ -575,7 +520,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liuzhe.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.HeadersTest" />
+      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.FanoutTest" />
       <option name="METHOD_NAME" value="testSend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -590,59 +535,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="UserTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RabbitMQ-SpringBoot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liuzhe.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.UserTest" />
-      <option name="METHOD_NAME" value="testUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RabbitMQ-SpringBoot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liuzhe.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.UserTest" />
-      <option name="METHOD_NAME" value="testString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TopicTest.testMessageUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TopicTest.testMessageA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
@@ -654,7 +547,33 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liuzhe.rabbitmq" />
       <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.TopicTest" />
-      <option name="METHOD_NAME" value="testMessageUser" />
+      <option name="METHOD_NAME" value="testMessageA" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TopicTest.testMessageB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liuzhe.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RabbitMQ-SpringBoot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liuzhe.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.liuzhe.rabbitmq.TopicTest" />
+      <option name="METHOD_NAME" value="testMessageB" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1057,18 +976,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DirectTest.testSend" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HeadersTest.testSend" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.testUser" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.testString" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageUser" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UserTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FanoutTest.testSend" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageA" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageB" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.testString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.testUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageUser" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HeadersTest.testSend" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DirectTest.testSend" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TopicTest.testMessageB" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FanoutTest.testSend" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DirectTest.testSend" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1086,44 +1005,46 @@
       <option name="presentableId" value="Default" />
       <updated>1535074097416</updated>
       <workItem from="1535074110226" duration="11867000" />
-      <workItem from="1535331973495" duration="16331000" />
+      <workItem from="1535331973495" duration="17527000" />
+      <workItem from="1535356158299" duration="757000" />
+      <workItem from="1535356960559" duration="5564000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopicTest_testMessageUser - 2018.08.27 at 15h 11m 42s.xml">
-      <configuration name="TopicTest.testMessageUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageA - 2018.08.27 at 17h 13m 19s.xml">
+      <configuration name="TopicTest.testMessageA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testString - 2018.08.27 at 15h 07m 03s.xml">
-      <configuration name="UserTest.testString" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 07m 02s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testString - 2018.08.27 at 15h 08m 01s.xml">
-      <configuration name="UserTest.testString" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 07m 11s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testString - 2018.08.27 at 15h 24m 30s.xml">
-      <configuration name="UserTest.testString" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 07m 58s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 06m 09s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 09m 29s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 09m 16s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 10m 57s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 11m 21s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 12m 22s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 15m 12s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 13m 56s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 16m 36s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 15m 01s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testUser - 2018.08.27 at 15h 23m 18s.xml">
-      <configuration name="UserTest.testUser" configurationId="JUnit" />
+    <history-entry file="TopicTest_testMessageB - 2018.08.27 at 18h 15m 10s.xml">
+      <configuration name="TopicTest.testMessageB" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28198000" />
+    <option name="totallyTimeSpent" value="35715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-167" width="1696" height="1026" extended-state="6" />
@@ -1140,19 +1061,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45221445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41025642" sideWeight="0.49754903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927739" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46736598" sideWeight="0.49754903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2995338" sideWeight="0.7273284" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23284313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2389706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32051283" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1160,17 +1081,44 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1179,16 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/hello/HelloReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1201,14 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageBReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageBReceiver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/RabbitMQApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1232,7 +1163,7 @@
         <state relative-caret-position="560">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1241,12 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1181,9 @@
         <state relative-caret-position="168">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#376#377#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1264,10 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1736">
           <caret line="62" column="65" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#19847#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,11 +1200,10 @@
         <state relative-caret-position="504">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1308,14 +1231,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageBReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/MessageBReceiver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/RabbitMQApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1324,43 +1240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/FanoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/hello/HelloSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/DirectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1382,30 +1265,8 @@
         <state relative-caret-position="40">
           <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/hello/HelloReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+            <element signature="e#592#593#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1414,18 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/headers/HeadersReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,20 +1283,8 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1456,34 +1293,6 @@
         <state relative-caret-position="225">
           <caret line="168" column="16" lean-forward="false" selection-start-line="168" selection-start-column="7" selection-end-line="168" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="42" column="83" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1498,176 +1307,321 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/TopicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1535354722543" expanded="true" signature="94865:94907" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="94865:94924" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="94865:94942" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="94865:94955" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="94865:94970" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95005:97569" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95018:97554" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95072:95367" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95091:95352" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95154:95332" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95194:95298" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95215:95276" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95417:95744" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95436:95729" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95531:95709" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95571:95675" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95592:95653" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95795:96101" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95814:96086" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95888:96066" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95928:96032" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="95949:96010" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96144:96470" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96163:96455" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96257:96435" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96297:96401" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96318:96379" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96521:96882" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96540:96867" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96630:96847" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96670:96813" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96691:96791" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96917:97223" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="96936:97208" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97010:97188" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97050:97154" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97071:97132" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97275:97540" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97294:97525" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97327:97505" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97367:97471" ph="..." />
-            <marker date="1535354722543" expanded="true" signature="97388:97449" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
+            <marker date="1535364900779" expanded="true" signature="94873:94890" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="94873:94908" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="94873:94921" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="94873:94936" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="94971:97535" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="94984:97520" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95038:95333" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95057:95318" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95120:95298" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95160:95264" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95181:95242" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95383:95710" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95402:95695" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95497:95675" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95537:95641" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95558:95619" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95761:96067" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95780:96052" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95854:96032" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95894:95998" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="95915:95976" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96110:96436" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96129:96421" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96223:96401" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96263:96367" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96284:96345" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96487:96848" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96506:96833" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96596:96813" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96636:96779" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96657:96757" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96883:97189" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96902:97174" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="96976:97154" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97016:97120" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97037:97098" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97241:97506" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97260:97491" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97293:97471" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97333:97437" ph="..." />
+            <marker date="1535364900779" expanded="true" signature="97354:97415" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="341">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/UserConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HeadersConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/FanoutConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <marker date="1535358328051" expanded="false" signature="739:750" ph=" { " />
+            <marker date="1535358328051" expanded="false" signature="777:783" ph=" }" />
+            <marker date="1535358328051" expanded="false" signature="826:837" ph=" { " />
+            <marker date="1535358328051" expanded="false" signature="864:870" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/DirectConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListeners.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="126" column="4" lean-forward="false" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/DirectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/direct/DirectSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/UserReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/FanoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/Fanout/FanoutReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/headers/HeadersReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/hello/HelloReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/HelloConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/spring-messaging/4.3.3.RELEASE/spring-messaging-4.3.3.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/adapter/HandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/my_local_repository/org/springframework/amqp/spring-rabbit/1.6.2.RELEASE/spring-rabbit-1.6.2.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/adapter/MessagingMessageListenerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/topic/TopicSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/rabbitmq/configuration/TopicConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuzhe/rabbitmq/TopicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,5 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Î÷Ûßúÿÿÿÿ
+N
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¾•Œ9
+msquid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(âàÎô

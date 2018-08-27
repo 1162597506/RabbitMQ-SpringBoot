@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 使用默认的交换机
  * 通过配置类添加 消息队列queue（建议使用）
+ * 若报错找不到队列，
  * 也可以在rabbitmq管理界面手动添加
  */
 @Configuration
