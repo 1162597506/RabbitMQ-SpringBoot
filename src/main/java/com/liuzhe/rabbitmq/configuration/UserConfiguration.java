@@ -16,7 +16,7 @@ public class UserConfiguration {
 
     private static final String USER_QUEUE = "user.queue";
 
-    private static final String USER_TOPIC_EXCHANGEC = "userTopicExchange";
+    private static final String USER_TOPIC_EXCHANGE = "userTopicExchange";
 
     @Bean
     public Queue userQueue() {
@@ -25,7 +25,7 @@ public class UserConfiguration {
 
     @Bean
     public TopicExchange topicExchange() {
-        return new TopicExchange(USER_TOPIC_EXCHANGEC);
+        return new TopicExchange(USER_TOPIC_EXCHANGE);
     }
 
     @Bean
