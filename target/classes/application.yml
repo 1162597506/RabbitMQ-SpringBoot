@@ -9,3 +9,6 @@ spring:
         password: guest
         publisher-confirms: true
 #        virtual-host: /
+#         采用手动应答
+        listener:
+            acknowledge-mode: manual

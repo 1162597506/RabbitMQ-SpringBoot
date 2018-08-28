@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 /**
- * Created by Alan on 2018/8/24.
+ * 使用默认的交换机处理消息，消息会被均匀的
+ * 被消费者处理，只要有消费者处理了消息就行。
  */
 @Component
 public class HelloSender {
@@ -16,8 +17,8 @@ public class HelloSender {
     private AmqpTemplate rabbitTemplate;
 
     public void send() {
-        String sendMsg = "hello " + new Date();
-        System.out.println("******  HelloSenderSingle : " + sendMsg);
+        String sendMsg = "hi , how  are  you ?" ;
+        System.out.println("******  HelloSender : " + sendMsg);
         this.rabbitTemplate.convertAndSend("helloQueue", sendMsg);
     }
 }

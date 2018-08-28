@@ -8,4 +8,10 @@ spring:
         username: guest
         password: guest
         publisher-confirms: true
-#        virtual-host: /
+#Spring 与RabbitMq集成,消息的处理方式是默认自动应答，也就是处理消息时无论是否出现异常，
+#都会给消息队列应答处理成功，消息队列删除消息，这时就会出现消息丢失的情况，
+#为了解决这个问题，我们需要使用手动应答的方式处理消息。
+#         采用手动应答
+        listener:
+            acknowledge-mode: manual
+        #        virtual-host: /
